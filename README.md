@@ -1,5 +1,5 @@
 # NotPixelBot
-🖱️ clicker for [https://t.me/realgoats_bot](https://t.me/realgoats_bot/run?startapp=37d06dc8-fa31-4272-b9df-5f74d12cb6f8)
+🖱️ clicker for [https://t.me/notpx_bot](https://t.me/notpixel/app?startapp=f558455838)
 
 ## Recommendation before use
 # 🔥🔥 Use PYTHON 3.10 🔥🔥
