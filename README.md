@@ -1,0 +1,2 @@
+# NotPixelBot
+NotPixelBot App AutoClicker
