@@ -4,35 +4,38 @@
 ## Recommendation before use
 # 🔥🔥 Use PYTHON 3.10 🔥🔥
 
+# 🔥🔥 Use PYTHON 3.10 - 3.11.5 🔥🔥
+
 ## Features  
-|                      Feature                       | Supported |
-|:--------------------------------------------------:|:---------:|
-|                   Multithreading                   |     ✅     |
-|              Proxy binding to session              |     ✅     |
-|           Support for pyrogram .session            |     ✅     |
-| Auto-register your account with your referral code |     ✅     |
-|                     Auto tasks                     |     ✅     |
-|                     Auto games                     |     ✅     |
-|                    Авто drawing                    |     ✅     |
-|                    Авто upgrade                    |     ✅     |
-|              Авто claiming of reward               |     ✅     |
+| Feature                                                     | Supported  |
+|---------------------------------------------------------------|:----------------:|
+| Multithreading                                                |        ✅        |
+| Proxy binding to session                                      |        ✅        |
+| Auto ref                                                      |        ✅        |
+| Auto claim                                                    |        ✅        |
+| Auto paint                                                    |        ✅        |
+| Auto paint specific pixel to get 3x px                        |        ✅        |
+| Auto task                                                     |        ✅        |
+| Auto UPGRADE                                                  |        ✅        |
+| Night mode                                                    |        ✅        |
+| Support for pyrogram .session / Query                         |        ✅        |
+
+## [Settings](https://github.com/sizifart/NotPixelBot/blob/main/.env-example)
+| Settings | Description |
+|----------------------------|:-------------------------------------------------------------------------------------------------------------:|
+| **API_ID / API_HASH**      | Platform data from which to run the Telegram session (default - android)                                      |       
+| **REF_LINK**               | Put your ref link here (default: my ref link)                                                                 |
+| **X3POINTS** | Auto paint specific pixel to get 3x px (default: True)                                                                      |
+| **AUTO_TASK**              |  Auto do tasks (default: True)                                                                                  |
+| **AUTO_UPGRADE_PAINT_REWARD** | AUTO upgrade paint reward if possible (default: True)                                                                      |
+| **AUTO_UPGRADE_RECHARGE_SPEED** | AUTO upgrade recharge speed if possible (default: True)                                                                      |
+| **AUTO_UPGRADE_RECHARGE_ENERGY** | AUTO upgrade energy limit if possible (default: True)                                                                      |
+| **NIGHT_MODE** | Sleep time for the bot (default: True)                                                                      |
+| **SLEEP_TIME** | Sleep in your timezone for the bot (default: [0, 7] 0am to 7am)                                                                     |
+| **SLEEP_BETWEEN_EACH_ROUND** | Sleep time in second between each round (default: [1000, 1500] 0am to 7am)                                                                     |
+| **USE_PROXY_FROM_FILE**    | Whether to use a proxy from the bot/config/proxies.txt file (True / False)                                    |
 
 
-## [Settings](https://github.com/sizifart/NotPixelBot/blob/main/.env-example/)
-|          Settings           |                                 Description                                  |
-|:---------------------------:|:----------------------------------------------------------------------------:|
-|    **API_ID / API_HASH**    |   Platform data from which to run the Telegram session (default - android)   |
-| **USE_RANDOM_DELAY_IN_RUN** |                              Name saying itself                              |
-|   **RANDOM_DELAY_IN_RUN**   |              Random seconds delay for ^^^ (default is [5, 30])               |
-|  **SLEEP_TIME_IN_MINUTES**  |         Random minutes delay between cycles (default is [120, 180])          |
-|         **USE_REF**         |         Register accounts with ur referral or not (default - False)          |
-|         **REF_ID**          |   Your referral argument (comes after app/startapp? in your referral link)   |
-|   **USE_PROXY_FROM_FILE**   | Whether to use a proxy from the `bot/config/proxies.txt` file (True / False) |
-|    **ENABLE_AUTO_TASKS**    |                       Enable auto tasks (True / False)                       |
-|    **ENABLE_AUTO_DRAW**     |                      Enable auto drawing (True / False)                      |
-| **ENABLE_JOIN_TG_CHANNELS** |              Enable auto joining to tg channels (True / False)               |
-|   **ENABLE_CLAIM_REWARD**   |                 Enable auto claim of rewards (True / False)                  |
-|   **ENABLE_AUTO_UPGRADE**   |                     Enable auto upgrading (True / False)                     |
 
 ## Prerequisites
 Before you begin, make sure you have the following installed:
